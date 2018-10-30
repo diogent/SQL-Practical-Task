@@ -4,10 +4,6 @@ GO
 /****** Object:  Database [companyDB]    Script Date: 10/30/2018 1:11:22 PM ******/
 CREATE DATABASE [companyDB]
  CONTAINMENT = NONE
- ON  PRIMARY 
-( NAME = 'companyDB', FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLEXPRESS\MSSQL\DATA\companyDB.mdf' , SIZE = 5120KB , MAXSIZE = UNLIMITED, FILEGROWTH = 1024KB )
- LOG ON 
-( NAME = 'companyDB_log', FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQLEXPRESS\MSSQL\DATA\companyDB_log.ldf' , SIZE = 1024KB , MAXSIZE = 2048GB , FILEGROWTH = 10%)
 GO
 
 ALTER DATABASE [companyDB] SET COMPATIBILITY_LEVEL = 110
